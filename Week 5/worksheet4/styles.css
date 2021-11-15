@@ -118,6 +118,13 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+.figcaption {
+    height: 500px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+}
 
 /* section 5 media items */
 
@@ -126,5 +133,17 @@ iframe {
     height: 1400px;
 
 }
-
+.media-container {
+    display: flex;
+    justify-content: fle-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+.mediacontent{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+}
 
